@@ -38,7 +38,7 @@ fn main() {
     loop {
         let mut temp_type = String::new(); // Declare a mutable string variable to store user input
         
-        println!("Are you starting with Celsius or Fahrenheit?"); // Print a message to prompt the user for input
+        println!("Are you starting with Celsius or Fahrenheit? (C/F)"); // Print a message to prompt the user for input
         
         // Read the user input from the standard input (stdin) and store it in the temp_type variable
         io::stdin()
